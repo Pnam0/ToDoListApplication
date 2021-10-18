@@ -1,0 +1,9 @@
+# node modules
+/node_modules 
+
+#VS Code Files
+/.vscode
+
+# parcel files
+/.parcel-cache
+/dist
