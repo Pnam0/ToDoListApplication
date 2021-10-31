@@ -8,7 +8,7 @@
 3. Home
 4. Work
 5. School
-- #### The Application features a simple homepage.js, a todopage.js and a pagenotfound.js. pagenotfound will only be seen if an incorrect path is selected.
+- #### The Application features a simple homepage.js, a todopage.js and a pagenotfound.js. pagenotfound will only be seen if the app has a incorrect path.
 - #### This Application uses Javascript and SCSS to inject different views (through routing) into a single HTML file.
 
 ## Want to see the Deployed Version?
