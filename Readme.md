@@ -8,4 +8,4 @@
 #### The Deployed version of this app is available through: https://paul-nam-to-do-application.netlify.app/
 
 ## Additional Information
-##### For Educational Purposes Only &copy; 2021
+##### Created By: Paul Nam | For Educational Purposes Only &copy; 2021
