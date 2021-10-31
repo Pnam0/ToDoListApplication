@@ -2,7 +2,7 @@
 
 ## Description
 - #### The purpose of this application is to create, edit, and delete your daily To Do tasks! 
-⋅⋅* The To Do tasks are split into five categories: 
+⋅⋅* ### The To Do tasks are split into five categories: 
 ..1. Health
 ..2. Friends
 ..3. Home
