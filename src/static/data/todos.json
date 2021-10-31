@@ -1,0 +1,52 @@
+[
+    {
+        "id":"qwerty12",
+        "category":"Home",
+        "title":"Mop Floors",
+        "isComplete":true,
+        "startDate": "11/10/2021",
+        "startTime": "8:17 AM",
+        "endDate": "22/11/2021",
+        "endTime": "11:59 PM"
+    },
+    {
+        "id":"qwert123",
+        "category":"School",
+        "title":"Javascript Assignment",
+        "isComplete": true,
+        "startDate": "11/10/2021",
+        "startTime": "8:17 AM",
+        "endDate": "22/11/2021",
+        "endTime": "11:59 PM"
+    },
+    {
+        "id":"qwer1234",
+        "category":"Health",
+        "title":"Take Vitamins",
+        "isComplete":false,
+        "startDate": "11/10/2021",
+        "startTime": "8:17 AM",
+        "endDate": "22/11/2021",
+        "endTime": "11:59 PM"
+    },
+    {
+        "id":"qwe12345",
+        "category":"Work",
+        "title":"Call in Sick",
+        "isComplete":true,
+        "startDate": "11/10/2021",
+        "startTime": "8:17 AM",
+        "endDate": "22/11/2021",
+        "endTime": "11:59 PM"
+    },
+    {
+        "id":"qw123456",
+        "category":"Friends",
+        "title":"Call Uncle Jim",
+        "isComplete":false,
+        "startDate": "11/10/2021",
+        "startTime": "8:17 AM",
+        "endDate": "22/11/2021",
+        "endTime": "11:59 PM"
+    }
+]

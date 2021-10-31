@@ -1,0 +1,104 @@
+//Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.todolist{
+    color: blue;
+    overflow:auto;
+    max-width: 58rem;
+    height: 60rem;
+    min-width: 38rem;
+    margin: auto;
+ 
+    header{
+        margin-top: .5rem;
+        padding-top: 1rem;
+    }
+    
+    h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Courgette', cursive
+    }   
+}
+
+.todo {
+    padding: 0.6rem 1rem 1rem 1rem;
+    color: #0004ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: .2rem solid #979797;
+    max-width: 80vw;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    text-align: left;
+    background-color: #e2e2e2;
+
+    p:first-child {
+        text-align: center;
+        color: #4c40ff;
+        border-bottom:1px solid black ;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    p:nth-child(2) {
+        padding-top: .4rem;
+        color: #0e00cc;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        
+    }
+
+    p:nth-child(5) {
+        color: rgb(0, 192, 0);
+        font-weight: bolder;
+    }
+}
+
+.Home {
+    p:first-child {
+        background-color:rgb(245, 62, 190, .80);
+        border-radius: 3rem;
+        
+    }
+}
+.School {
+    p:first-child {
+        background-color: #f59d21;
+        border-radius: 3rem;
+    }
+}
+.Health {
+    p:first-child {
+        background-color: #FEDE00;
+        border-radius: 3rem;
+    }
+}
+.Work {
+    p:first-child {
+        background-color: rgb(64, 212, 64);
+        border-radius: 3rem;
+    }
+}
+.Friends {
+    p:first-child {
+        background-color: rgb(255, 164, 180);
+        border-radius: 3rem;
+    }
+}
+
+.controls{
+    button {
+        background-color: #0e00cc;
+        font-size: 1.5rem;
+        border-radius: 6px;
+        border:1px solid black;
+        color:white;
+        margin: 0.25rem;
+    }
+}
+
+.bottom-bar {
+    height: 2rem;
+}

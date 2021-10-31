@@ -4,10 +4,18 @@
   "description": "simple vanilla js project",
   "default": "src/index.js",
   "scripts": {
-    "test": "none",
-    "start": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html",
-    "startup": "mkdir src src/scss src/js src/css src/data src/assets"
+    "start": "rm -rf .parcel-cache dist && npm run static && npx parcel build src/index.html && npx parcel src/index.html",
+    "build": "npm run static && npx parcel build src/index.html",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "clean:dev": "rm -rf .parcel-cache dist",
+    "clean:git": "rm -rf .parcel-cache dist node_modules",
+    "startup": "mkdir src src/scss src/js src/css src/data src/assets",
+    "index": "touch src/index.html src/js/index.js src/scss/styles.scss",
+    "devinstall": "npm install -D parcel gulp sass http-server",
+    "frontinstall": "npm install uuid lodash",
+    "static": "npx gulp",
+    "dev": "npm run static && npx parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -26,6 +34,7 @@
   "homepage": "https://github.com/Pnam0/ToDoListApplication#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0",
+    "gulp": "^4.0.2",
     "http-server": "^13.0.2",
     "parcel": "^2.0.0",
     "sass": "^1.43.2"
