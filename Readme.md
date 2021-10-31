@@ -5,7 +5,7 @@
 - #### The Application features a simple homepage.js, a todopage.js and a pagenotfound.js.
 
 ## Want to see the Deployed Version?
-#### The Deployed version of this app is available through: https://paul-nam-to-do-application.netlify.app/
+#### The Deployed version of this app is available through: https://to-do-application-pn.netlify.app/
 
 ## Additional Information
 ##### Created By: Paul Nam | For Educational Purposes Only &copy; 2021
