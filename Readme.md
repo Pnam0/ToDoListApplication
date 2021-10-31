@@ -1,4 +1,4 @@
-#Welcome!
+# Welcome!
 
 ## Description
 - #### This Application uses Javascript and SCSS to inject different views (through routing) into a single HTML file. 
