@@ -1,0 +1,39 @@
+.welcome {
+    h1 {
+        font-size: 2rem;
+        margin: 2rem 0rem;
+        font-weight: bold;
+    }
+
+}
+.edit-container {
+    display: block;
+    border:1px solid rgb(133, 133, 133);
+    padding:0rem 4rem;
+    border-radius: 5rem;
+    max-width: 550px;
+
+    .item-label {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    .form-control {
+        border-radius: 20rem;
+        background-color:rgb(203, 216, 228);
+    }
+
+    #toDoCategory {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+
+    #addPageCancel,
+    #addPageAdd {
+        background-color: rgb(71, 71, 71);
+        color: white;
+        font-size: 1.5rem;
+    }
+
+}

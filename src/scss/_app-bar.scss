@@ -1,18 +1,17 @@
-.bottombar {
-    height: 10rem;
-    background-image: linear-gradient( #BFF5FD,#113CCF);
+.footer-container {
+    height: 7.5rem;
+    background-color: rgb(237, 225, 225);
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-
-    .addcontrol{
-        height: 6.5rem;
-        width: 6.5rem;
+    #add {
+        background-color: rgb(43, 134, 43);
+        color: yellow;
+        width: 5rem;
+        height: 5rem;
+        font-size: 3rem;
         border-radius: 50%;
-        background-color:#64B735;
-        color:white;
-        font-size: 4rem;
-        margin-top: 2rem;
-        text-align: center;
     }
-
-        
 }

@@ -1,0 +1,22 @@
+.button-container {
+    margin: 2rem;
+}
+
+.main-delete-style {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+.center-in-page {
+    height:  60vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

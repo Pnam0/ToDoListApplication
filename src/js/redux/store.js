@@ -10,6 +10,10 @@ function createStore (data=[]){
 function getStore (){
     return store
 }
- 
-export {createStore, getStore}
+
+function updateStore(newStore){
+    store = [...newStore]
+}
+
+export {createStore, getStore, updateStore}
 

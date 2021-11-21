@@ -1,20 +1,7 @@
 .page-header {
     text-align: center;
-    padding: 15rem 0;
-    display: flex;
-    flex-direction: column;
+    display: block
 
-    span {
-        font-weight: bold;
-        font-size: 1.1rem;
-        color: black;
-        background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-        border-radius: 2rem;
-    }
-
-    a {
-        color: yellow;
-    }
 
 }
 
@@ -52,8 +39,8 @@
         margin: 2rem 35vw;
         width: 25vw;
         text-align: center;
-        color: #5BFC4B;
-        background-color: #B48CFC;
+        color: navy;
+        background-color: rgb(202, 202, 202);
     }
 
     a:hover {

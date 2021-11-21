@@ -1,17 +1,18 @@
 .app-header {
     color: red;
     text-align: center;
-    background-color: #f6f6f6;
+    background-color: #f8f2f2;
     display: flex;
     flex-direction: column;
 
-    a{
-        color:yellow;
+    a{ //To Do Page, Home Button
+        color:navy;
         margin: 0 0 .7rem 0;
         padding: .5rem .1rem;
         justify-content: center;
         width:25vw;
-        font-size:1rem;
+        font-size:1.2rem;
+        font-weight: 500;
         align-self: center;
     }
 }

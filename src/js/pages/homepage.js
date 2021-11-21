@@ -11,9 +11,8 @@ const homepage = function(params) {
 
         pageHeader.classList.add('page-header')
         pageHeader.appendChild(makeElement(logo()))
-        pageHeader.appendChild(makeElement(header("A <span>Parody</span> Disney&copy To Do App")))
-        pageHeader.appendChild(makeElement(tagline("~ Where your To Do's come True ~")))
-        const linkElm = link('To Infinity and Beyond... The App!', '/todopage')        
+        pageHeader.appendChild(makeElement(tagline("A Simple To Do Application.")))
+        const linkElm = link('Start the App', '/todopage')        
         pageHeader.append(linkElm)
 
         return pageHeader

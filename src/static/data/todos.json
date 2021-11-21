@@ -4,40 +4,40 @@
         "category":"Home",
         "title":"Mop Floors",
         "isComplete":true,
-        "startDate": "11/10/2021",
-        "startTime": "8:17 AM",
-        "endDate": "22/11/2021",
-        "endTime": "11:59 PM"
+        "startDate": "2021-10-18",
+        "startTime": "08:17",
+        "endDate": "2021-11-21",
+        "endTime": "14:56"
     },
     {
         "id":"qwert123",
         "category":"School",
         "title":"Javascript Assignment",
         "isComplete": true,
-        "startDate": "11/10/2021",
-        "startTime": "8:17 AM",
-        "endDate": "22/11/2021",
-        "endTime": "11:59 PM"
+        "startDate": "2021-11-12",
+        "startTime": "08:19",
+        "endDate": "2021-11-15",
+        "endTime": "14:34"
     },
     {
         "id":"qwer1234",
         "category":"Health",
         "title":"Take Vitamins",
         "isComplete":false,
-        "startDate": "11/10/2021",
-        "startTime": "8:17 AM",
-        "endDate": "22/11/2021",
-        "endTime": "11:59 PM"
+        "startDate": "2021-03-07",
+        "startTime": "11:14",
+        "endDate": "",
+        "endTime": ""
     },
     {
         "id":"qwe12345",
         "category":"Work",
         "title":"Call in Sick",
-        "isComplete":true,
-        "startDate": "11/10/2021",
-        "startTime": "8:17 AM",
-        "endDate": "22/11/2021",
-        "endTime": "11:59 PM"
+        "isComplete":false,
+        "startDate": "2021-07-18",
+        "startTime": "12:17",
+        "endDate": "",
+        "endTime": ""
     },
     {
         "id":"qw123456",
@@ -45,8 +45,8 @@
         "title":"Call Uncle Jim",
         "isComplete":false,
         "startDate": "11/10/2021",
-        "startTime": "8:17 AM",
-        "endDate": "22/11/2021",
-        "endTime": "11:59 PM"
+        "startTime": "8:17",
+        "endDate": "",
+        "endTime": ""
     }
 ]

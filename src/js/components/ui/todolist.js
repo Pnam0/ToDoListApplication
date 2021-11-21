@@ -4,7 +4,7 @@ const todolist = function() {
     const template = `
     <aside id="todolist" class="todolist">
     <header>
-        <h2>To Do List</h2>
+        <h2>Your List</h2>
     </header>
     <ul id="todos" class="todos">
      
