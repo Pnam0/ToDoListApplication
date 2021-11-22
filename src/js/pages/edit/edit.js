@@ -71,6 +71,7 @@ const editPage = function(props){
             reducer(action)
     }
 
+        let toDoItemId = props.id
          let toDoItemTitle = props.title
          let toDoItemCategory = props.category
          let toDoItemEndDate = props.endDate
@@ -157,6 +158,9 @@ const editPage = function(props){
     <header data-key="${props}" class="welcome center-in-page">
     <h1>Edit To Do Item.</h1>
     <div class="edit-container">
+        <label class="item-label" for="toDoId"> To Do ID </label><br>
+        <input class="form-control" type="text" id="toDoId" value="${toDoItemId}" name="toDoTitle" readonly/><br>
+
         <label class="item-label" for="toDoTitle"> To Do Title </label><br>
         <input class="form-control" type="text" id="toDoTitle" value="${toDoItemTitle}" name="toDoTitle"/><br>
 

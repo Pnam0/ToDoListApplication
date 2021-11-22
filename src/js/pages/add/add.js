@@ -3,6 +3,7 @@ import button from "~/src/js/components/button"
 import { Router } from "../../routes/router"
 import reducer from "~/src/js/redux/reducer"
 import { v4 as uuidv4} from 'uuid'
+import { isEmpty } from "lodash"
 
 
 const addPage = function(props){
@@ -34,7 +35,11 @@ const addPage = function(props){
         let toDoEndTime = document.getElementById("toDoEndTime").value;
         let toDoStartDate = document.getElementById("toDoStartDate").value;
         let toDoStartTime = document.getElementById("toDoStartTime").value;
-        let id = newId;
+        let id = document.getElementById("toDoId").value;
+
+        if (id === "") {
+            id = newId;
+        }
 
         const action = {
             type: "add",
@@ -70,6 +75,9 @@ const addPage = function(props){
     <header data-key="${props}" class="welcome center-in-page">
     <h1>Add To Do Item.</h1>
     <div class="edit-container">
+        <label class="item-label" for="toDoId"> To Do Id (Can Auto-Generate) </label><br>
+        <input class="form-control" type="text" id="toDoId" name="toDoId" required/><br>
+
         <label class="item-label" for="toDoTitle"> To Do Title </label><br>
         <input class="form-control" type="text" id="toDoTitle" name="toDoTitle" required/><br>
 
